@@ -49,7 +49,7 @@ Examples:
 
 - Gross Margin declined from **33.91% → 31.71%**
 
-Revenue grew, but profitability efficiency weakened.  [oai_citation:1‡analyze-profits-for-ecommerce-company-presentation-template_2.pdf](sediment://file_00000000eeb871f8935107a054d64cb1)
+**Insight:** Revenue grew, but profitability efficiency weakened.
 
 ---
 
@@ -61,7 +61,7 @@ Revenue grew, but profitability efficiency weakened.  [oai_citation:1‡analyze-
 
 - Product 3 maintained highest volume performance
 
-Growth products and underperformers became easier to identify through dashboard analysis.  [oai_citation:2‡analyze-profits-for-ecommerce-company-presentation-template_2.pdf](sediment://file_00000000eeb871f8935107a054d64cb1)
+**Insight:** Dashboard analysis highlighted high-growth products and underperformers.
 
 ---
 
@@ -80,7 +80,7 @@ Suggested focus areas:
 - COGS efficiency
 - Marketing ROI
 - Sales growth
-- Risk management  [oai_citation:3‡analyze-profits-for-ecommerce-company-presentation-template_2.pdf](sediment://file_00000000eeb871f8935107a054d64cb1)
+- Risk management
 
 ---
 
@@ -100,7 +100,7 @@ Suggested focus areas:
 
 ✔ Data Storytelling
 
-✔ Recommendations & Strategy
+✔ Business Recommendations
 
 ---
 
@@ -108,13 +108,10 @@ Suggested focus areas:
 
 ```text
 dashboard/
-    Dashboard outputs
+    Google Sheets dashboard resources
 
 presentation/
-    Executive presentation
-
-analysis/
-    Supporting documents
+    Executive presentation PDF
 
 README.md
 ```
@@ -126,7 +123,7 @@ README.md
 | File | Purpose |
 |------|----------|
 | Presentation PDF | Executive summary & findings |
-| Google Sheets Dashboard | Interactive analysis |
+| Google Sheets Dashboard | Interactive dashboard |
 | README.md | Project documentation |
 
 ---
@@ -135,9 +132,7 @@ README.md
 
 Interactive Google Sheets Dashboard:
 
-[Open Interactive Dashboard](https://docs.google.com/spreadsheets/d/1ixEdL6VuHNfs8jvB1Jm7tuNE5rcbA5XBrFcH0yedeoI/edit?usp=sharing)
-
-Current project source:  [oai_citation:4‡Google_sheet_link.rtf](sediment://file_00000000410871fdbe998346863c7653)
+[Open Dashboard](https://docs.google.com/spreadsheets/d/1ixEdL6VuHNfs8jvB1Jm7tuNE5rcbA5XBrFcH0yedeoI/edit?usp=sharing)
 
 ---
 
@@ -151,7 +146,9 @@ Based on findings:
 - Increase focus on retention and ROI-driven marketing
 - Explore recurring revenue opportunities
 
-These recommendations were proposed to improve 2026 profitability.  [oai_citation:5‡analyze-profits-for-ecommerce-company-presentation-template_2.pdf](sediment://file_00000000eeb871f8935107a054d64cb1)
+Goal:
+
+Increase profitability while maintaining sustainable growth.
 
 ---
 
@@ -161,10 +158,10 @@ These recommendations were proposed to improve 2026 profitability.  [oai_citatio
 
 Aspiring Data Analyst
 
-SQL • Python • Excel • Dashboards • Tableau
+**Skills:** SQL • Python • Excel • Google Sheets • Tableau 
 
 Currently completing the **Udacity Data Analyst Nanodegree**
 
 ---
 
-⭐ Building portfolio projects focused on analytics, dashboards, and business insights.
+⭐ Building projects focused on analytics, dashboards, and business insights.
