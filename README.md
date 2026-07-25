@@ -1,167 +1,122 @@
-<h1 align="center">📊 E-Commerce Profit Analysis & Dashboard Project</h1>
+# 📊 E-Commerce Profit Analysis & Dashboard
 
-<p align="center">
-Financial analysis project exploring profitability, revenue growth, product performance, and future business scenarios.
-</p>
-
-<p align="center">
+> **Financial analysis of an e-commerce company's 2024 vs. 2025 performance — profitability trends, product-level drivers, and 2026 forecast scenarios — built in Google Sheets.**
 
 ![Excel](https://img.shields.io/badge/Excel-217346?style=for-the-badge&logo=microsoft-excel)
 ![Google Sheets](https://img.shields.io/badge/Google%20Sheets-34A853?style=for-the-badge&logo=googlesheets)
 ![Dashboard](https://img.shields.io/badge/Dashboard-Analytics-blue?style=for-the-badge)
 ![Business Analysis](https://img.shields.io/badge/Business%20Analysis-Insights-orange?style=for-the-badge)
 
-</p>
+---
+
+## 🖼️ Dashboard Preview
+
+**Profit & Loss summary** — the headline numbers at a glance.
+
+![P&L summary](images/pnl-statement.png)
+
+**2024 vs 2025 performance** — revenue grew, but COGS grew faster, squeezing gross profit.
+
+![YoY summary](images/yoy-summary.png)
+
+**Gross margin compression** — margin fell from 33.9% to 31.7% across the year.
+
+![Gross margin trend](images/gross-margin-trend.png)
+
+**Monthly net sales** — 2025 (orange) outpaced 2024 (blue) in most months.
+
+![Monthly net sales](images/monthly-net-sales.png)
+
+🔗 **Live dashboard:** [Open in Google Sheets](https://docs.google.com/spreadsheets/d/1ixEdL6VuHNfs8jvB1Jm7tuNE5rcbA5XBrFcH0yedeoI/edit?usp=sharing)
+📄 **Executive summary:** [presentation.pdf](presentation.pdf)
 
 ---
 
-# 📌 Project Overview
+## 📌 Project Overview
 
-This project analyzes financial performance and profitability trends for an e-commerce company using dashboards, year-over-year comparisons, and business metrics.
+This project analyzes profitability trends for an e-commerce company, comparing 2024 and 2025 performance, identifying which products drove growth, and forecasting three 2026 scenarios.
 
-The analysis compares 2024 and 2025 performance while identifying growth opportunities and forecasting future profitability scenarios.
-
-Completed as part of the **Udacity Data Analyst Nanodegree**.
+*Completed during the Udacity Data Analyst Nanodegree.*
 
 ---
 
-# 🎯 Business Questions Explored
-
-Examples:
+## 🎯 Business Questions
 
 - How did profitability change from 2024 → 2025?
-- Which products contributed most to growth?
-- Did revenue growth translate into higher profit?
-- What trends reduced margins?
-- What actions could improve future profits?
+- Which products contributed most to growth, and which dragged on it?
+- Did revenue growth actually translate into higher profit?
+- What trends compressed margins?
+- What actions could improve 2026 profitability?
 
 ---
 
-# 📈 Key Findings
+## 📈 Key Findings
 
-### Financial Performance
+### Financial Performance (2024 → 2025)
 
-- Net Sales increased from **$716,765 → $778,997 (+8.7%)**
+| Metric | 2024 | 2025 | Change |
+| ------ | ---- | ---- | ------ |
+| Net Sales | $716,765 | $778,997 | **+8.7%** |
+| Cost of Goods Sold | $473,685 | $531,942 | **+12.3%** |
+| Gross Profit | $243,080 | $247,055 | **+1.6%** |
+| Gross Margin | 33.91% | 31.71% | **−2.2 pts** |
 
-- Cost of Goods Sold increased **12.3%**, outpacing revenue growth
+> **Insight:** Revenue grew, but COGS grew faster — so profitability efficiency weakened even as the top line expanded.
 
-- Gross Profit increased only **1.6%**
-
-- Gross Margin declined from **33.91% → 31.71%**
-
-**Insight:** Revenue grew, but profitability efficiency weakened.
-
----
+> **Bottom line:** Despite an **8.7% jump in Net Sales, Net Earnings were essentially flat** ($104,099 → $104,374, **+0.3%**). Growth did not reach the bottom line — rising cost of goods and operating expenses absorbed nearly all of the additional revenue. The business grew sales without growing profit.
 
 ### Product-Level Insights
 
-- Product 1 produced the strongest YoY improvement
+- **Product 1** delivered the strongest year-over-year improvement.
+- **Product 2** saw declining profitability and needs review.
+- **Product 3** held the highest volume performance.
 
-- Product 2 experienced declining profitability
+### 2026 Forecast Scenarios
 
-- Product 3 maintained highest volume performance
-
-**Insight:** Dashboard analysis highlighted high-growth products and underperformers.
-
----
-
-### Forecasting Insights
-
-Projected 2026 outcomes:
-
-**Best Case:** ≈ $201,825
-
-**Base Case:** ≈ $158,811
-
-**Worst Case:** ≈ $117,864
-
-Suggested focus areas:
-
-- COGS efficiency
-- Marketing ROI
-- Sales growth
-- Risk management
+| Scenario | Projected Profit |
+| -------- | ---------------- |
+| Best case | ≈ $201,825 |
+| Base case | ≈ $158,811 |
+| Worst case | ≈ $117,864 |
 
 ---
 
-# 🛠 Skills Demonstrated
+## 🚀 Business Recommendations
 
-✔ Dashboard Development
+- Improve gross-margin efficiency by controlling COGS growth.
+- Prioritize higher-performing products; review underperformers.
+- Reduce cost lines growing faster than revenue.
+- Shift toward retention and ROI-driven marketing.
+- Explore recurring-revenue opportunities.
 
-✔ Financial Analysis
-
-✔ Trend Analysis
-
-✔ Business Metrics
-
-✔ Forecasting
-
-✔ Pivot Tables
-
-✔ Data Storytelling
-
-✔ Business Recommendations
+**Goal:** grow profitability while keeping growth sustainable.
 
 ---
 
-# 📂 Repository Structure
+## 🛠 Skills Demonstrated
 
-```text
-dashboard/
-    Google Sheets dashboard resources
+Dashboard development · financial analysis · trend analysis · business metrics · forecasting · pivot tables · data storytelling · business recommendations
 
-presentation/
-    Executive presentation PDF
+---
 
-README.md
+## 📂 Repository Structure
+
+```
+ecommerce-profit-analysis-dashboard/
+│
+├── images/           # Dashboard screenshot(s)
+├── presentation.pdf  # Executive summary & findings
+├── dashboard-link.md # Link to the live Google Sheets dashboard
+└── README.md
 ```
 
 ---
 
-# 📁 Files Included
+## 👤 Author
 
-| File | Purpose |
-|------|----------|
-| Presentation PDF | Executive summary & findings |
-| Google Sheets Dashboard | Interactive dashboard |
-| README.md | Project documentation |
+**Michael Jon-Baptiste** — Data Analyst
+SQL · Python · Excel · Google Sheets · Tableau
 
----
-
-# 🔗 Dashboard Link
-
-Interactive Google Sheets Dashboard:
-
-[Open Dashboard](https://docs.google.com/spreadsheets/d/1ixEdL6VuHNfs8jvB1Jm7tuNE5rcbA5XBrFcH0yedeoI/edit?usp=sharing)
-
----
-
-# 🚀 Business Recommendations
-
-Based on findings:
-
-- Improve gross margin efficiency
-- Prioritize higher-performing products
-- Reduce costs growing faster than revenue
-- Increase focus on retention and ROI-driven marketing
-- Explore recurring revenue opportunities
-
-Goal:
-
-Increase profitability while maintaining sustainable growth.
-
----
-
-# 👤 Author
-
-### Michael Jon-Baptiste
-
-Aspiring Data Analyst
-
-**Skills:** SQL • Python • Excel • Google Sheets • Tableau 
-
-Currently completing the **Udacity Data Analyst Nanodegree**
-
----
+🔗 GitHub: https://github.com/Rozaay12 · LinkedIn: [FILL IN]
 
 ⭐ Building projects focused on analytics, dashboards, and business insights.
