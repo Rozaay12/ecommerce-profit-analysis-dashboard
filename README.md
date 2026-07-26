@@ -117,6 +117,6 @@ ecommerce-profit-analysis-dashboard/
 **Michael Jon-Baptiste** — Data Analyst
 SQL · Python · Excel · Google Sheets · Tableau
 
-🔗 GitHub: https://github.com/Rozaay12 · LinkedIn: [FILL IN]
+🔗 GitHub: https://github.com/Rozaay12 · 💼 [LinkedIn](https://www.linkedin.com/in/michael-jon-baptiste-b63001170)
 
 ⭐ Building projects focused on analytics, dashboards, and business insights.
